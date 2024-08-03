@@ -23,6 +23,11 @@ nav {
   align-items: center;
 }
 
+nav {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .nav-logo a,
 .nav-links a {
   color: var(--bold-text-color);
@@ -51,13 +56,6 @@ nav {
   position: absolute;
   color: var(--black);
   cursor: pointer;
-}
-
-@media (max-width: 1300px) {
-  nav {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
 }
 
 @media (max-width: 950px) {
