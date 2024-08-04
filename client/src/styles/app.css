@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700;900;1000&family=Poppins:wght@300;500;700;900&family=Quicksand:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@400;500;700&display=swap");
 
 :root {
-  --light-blue: #e9f1fa;
-  --dark-blue: #00abe4;
-  --darker-blue: #0077ff;
+  --light-blue: #e4cdec;
+  --dark-blue: #c850f2;
+  --darker-blue: #8b1cb4;
   --white: #fff;
   --bold-text-color: #1e375a;
   --light-text-color: rgba(30, 55, 90, 0.7);
@@ -22,7 +22,7 @@ html {
 
 body {
   font-family: var(--font-family);
-  background-color: var(--light-blue);
+  background-color: var(--white);
 }
 
 li {

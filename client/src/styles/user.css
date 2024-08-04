@@ -31,8 +31,8 @@ th {
   text-align: center;
   font-weight: 700;
   padding: 0.3rem 1rem;
-  background-color: rgb(219, 223, 246);
-  color: var(--bold-text-color);
+  background-color: var(--darker-blue);
+  color: var(--white);
 }
 
 tr {
