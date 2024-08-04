@@ -37,6 +37,17 @@
   justify-content: space-between;
 }
 
+.video-section {
+  margin-top: 20px;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-section video {
+  width: 100%;
+}
+
 @media screen and (max-width: 770px) {
   .hero {
     height: auto;
