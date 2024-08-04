@@ -8,20 +8,17 @@ const AboutUs = () => {
         <h2 className="page-heading about-heading">About Us</h2>
         <div className="about">
           <div className="hero-img">
-            <img
-              src={image}
-              alt="hero"
-            />
+            <img src={image} alt="hero" />
           </div>
           <div className="hero-content">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam tenetur doloremque molestias repellat minus asperiores
-              in aperiam dolor, quaerat praesentium. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Voluptatibus, repudiandae! Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Provident
-              quibusdam doloremque ex? Officia atque ab dolore? Tempore totam
-              non ea!
+              Welcome to Stay Healthy, where your health is our priority. We
+              connect patients with trusted doctors, making healthcare
+              accessible and convenient. Our platform allows you to book
+              appointments, consult online, and access medical records
+              seamlessly. With a commitment to quality care, we ensure that your
+              health is in the best hands. Join us in making healthcare simple
+              and efficient.
             </p>
           </div>
         </div>
