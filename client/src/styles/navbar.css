@@ -35,7 +35,15 @@ nav {
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+}
+
+.nav-links li {
+  padding: 0 20px;
+  position: relative;
+}
+
+.nav-links li + li {
+  border-left: 2px solid var(--darker-blue);
 }
 
 .nav-links .btn {
@@ -75,6 +83,11 @@ nav {
     gap: 3rem;
     transition: all 0.3s linear;
   }
+
+  .nav-links li + li {
+    border-left: none;
+  }
+
   .nav-active .nav-links {
     transform: translateX(0%);
     visibility: visible;
