@@ -87,13 +87,14 @@ td {
   background-color: green;
 }
 
-.notifications {
+.notifications, .appointments {
   width: 100%;
   display: flex;
 }
 
-.notifications table {
+.notifications table, .appointments table {
   width: fit-content;
+  margin: 0 auto;
 }
 
 @media (max-width: 1126px) {
