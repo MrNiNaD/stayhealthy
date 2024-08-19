@@ -87,6 +87,15 @@ td {
   background-color: green;
 }
 
+.notifications {
+  width: 100%;
+  display: flex;
+}
+
+.notifications table {
+  width: fit-content;
+}
+
 @media (max-width: 1126px) {
   .user-section {
     width: 70vw;

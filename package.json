@@ -1,12 +1,12 @@
 {
-  "name": "healthbooker",
+  "name": "stayhealthy",
   "version": "2.0.0",
-  "description": "Doctor appointment website",
+  "description": "Website for health check up and doctor appointment",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Avinash905",
+  "author": "ninad-parkar",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
